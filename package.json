@@ -1,0 +1,49 @@
+{
+  "name": "@observer-protocol/wdk-policy",
+  "version": "0.1.0-beta.1",
+  "description": "WDK protocol module: delegation-scoped policy enforcement for agentic wallets, powered by Observer Protocol AIP v0.8.",
+  "keywords": [
+    "wdk",
+    "tether",
+    "policy",
+    "policy-engine",
+    "delegation",
+    "verifiable-credentials",
+    "did-web",
+    "observer-protocol",
+    "agentic-economy",
+    "aip"
+  ],
+  "author": "Observer Protocol, Inc.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/observer-protocol/wdk-policy.git"
+  },
+  "homepage": "https://observerprotocol.org",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "AGENTS.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build:types": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

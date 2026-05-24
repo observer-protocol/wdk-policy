@@ -1,0 +1,8 @@
+tests/
+examples/
+coverage/
+.editorconfig
+.gitignore
+.npmrc
+*.log
+.DS_Store
