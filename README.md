@@ -115,6 +115,16 @@ See [src/adapter.js](./src/adapter.js) for the JSDoc-typed surface. Brief:
 
 For step-by-step WDK integration, see [op-policy-engine/docs/WDK-INTEGRATION.md](https://github.com/observer-protocol/op-policy-engine/blob/main/docs/WDK-INTEGRATION.md).
 
+## Related WDK modules
+
+This is one of several Observer Protocol modules for the Tether [WDK](https://github.com/tetherto/wdk) ecosystem:
+
+- **[@observer-protocol/wdk-policy](https://github.com/observer-protocol/wdk-policy)** — delegation-scoped policy enforcement (per AIP v0.8). *(this module)*
+- **[@observer-protocol/wdk-protocol-trust](https://github.com/observer-protocol/wdk-protocol-trust)** — agent identity + bilateral trust handshake (per AIP v0.5/v0.6).
+- **[@observer-protocol/wdk-lightning-verifier](https://github.com/observer-protocol/wdk-lightning-verifier)** — verifiable Lightning payments + reputation attribution.
+
+See [observer-protocol/wdk-modules](https://github.com/observer-protocol/wdk-modules) for the full index.
+
 ## License
 
 Apache-2.0. See [LICENSE](./LICENSE).
