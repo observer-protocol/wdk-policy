@@ -1,3 +1,7 @@
+> **⚠ Superseded & archived (2026-06-12).** This is the *pre-#55* policy module. The shipped, maintained policy enforcement is **[@observer-protocol/wdk-op-policy](https://github.com/observer-protocol/wdk-op-policy)** (`v0.1.0`), which enforces through Tether's merged WDK transaction policy engine ([PR #55](https://github.com/tetherto/wdk/pull/55)). This repo is never published to npm and is retained for reference only — in particular its signed-`PolicyEvaluationCredential` sidecar client (`src/sidecar-client.js`, `src/adapter.js`) is the reference implementation for that roadmap surface of `wdk-op-policy`.
+
+---
+
 # @observer-protocol/wdk-policy
 
 > WDK protocol module: delegation-scoped policy enforcement for agentic wallets, powered by Observer Protocol AIP v0.8.
